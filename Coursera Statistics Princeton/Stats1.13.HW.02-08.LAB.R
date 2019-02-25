@@ -1,6 +1,9 @@
 
-# Segment 1
+# Segment 1 Seguimento 1
+
+# Get or Set Working Directory
 setwd("c:/Users/Dima/Documents/R/coursera")
+
 # Read data into a dataframe called MOD
 ma <- read.table("Stats1.13.HW.02-08.txt", header = T)
 ma
