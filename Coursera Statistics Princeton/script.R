@@ -1,5 +1,9 @@
+# Oferece ao dados um variedade de formatações para ser utilizadas em R
 library(Quandl)
+
+# Determina um 'Quandl API Token', Returns invisibly the currently set auth_token
 Quandl.auth("GgnxpyU***bY")
+
 # Employment numbers (thousands of people") for Lansing, Michigan
 NonFarm = Quandl("FRED/LANS626NAN")
 CivLaborForce = Quandl("FRED/LANS626LFN")
